@@ -7,8 +7,6 @@ with open('comment.txt') as comment:
     comments = comment.read()
 
 
-
-
 def auto_comment(striped_comment, url):
     time.sleep(2)
 
@@ -25,7 +23,7 @@ def auto_comment(striped_comment, url):
         time.sleep(2)
         print(f'{sc} comment is done !!')
         count = count + 1
-        if count == 1:
+        if count == 10:
             break
 
 def urlrun():
